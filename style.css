@@ -25,4 +25,5 @@ body {
 .remote h3{
     color: grey;
     font-size : 2rem;
+    text-align: center;
 }
