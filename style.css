@@ -1,5 +1,4 @@
 body {
-    margin : 0;
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 69%);
     color : white;
@@ -7,7 +6,7 @@ body {
 .borderbox {
     text-align: center;
     margin : 2rem;
-    margin-bottom: 4rem;
+    margin-top : 3rem;
     color: white;
     font-style: bold;
 
@@ -35,14 +34,18 @@ body {
 }
 .btn {
     margin: auto;
-    padding : 2rem;
+    padding : 1rem;
     margin : 0.2rem;
-    
-
+    width : 8rem;
+    font-size : 2rem;
 }
 
 .center {
     margin: auto;
     text-align: center;
+}
+
+.page{
+    
 }
 
