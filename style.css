@@ -1,29 +1,51 @@
 body {
-    margin : 0;
-    font-family: 'Lobster', cursive;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 69%);
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 69%);
     color : white;
 }
 .borderbox {
     text-align: center;
     margin : 2rem;
-    margin-bottom: 4rem;
+    margin-top : 3rem;
+    color: white;
+    font-style: bold;
 
 }
 .remote{
     margin: auto;
     width: 60%;
     height: 600px ;
-    border-style: solid;
-    border-color: white; 
-    border-radius: 150px;
+    
     margin-top : 3rem;
-    margin-bottom : 3rem;
-    background: white;
+    margin-bottom : 5rem;
     opacity: 0.7;
 }
 .remote h3{
     color: grey;
-    font-size : 2rem;
+    font-size : 1.8rem;
     text-align: center;
 }
+
+.remote h2 {
+    color : hsl(24, 100%, 59%);
+    text-align: center;
+    margin : 2rem ;
+    font-size: 2rem;   
+}
+.btn {
+    margin: auto;
+    padding : 1rem;
+    margin : 0.2rem;
+    width : 8rem;
+    font-size : 2rem;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.page{
+    
+}
+
