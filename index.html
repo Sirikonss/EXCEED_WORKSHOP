@@ -14,27 +14,30 @@
         <h1 id="name">Prison</h1>
     </div>
     <div class="remote">
-        <h3 class="p-0 m-0">Remote</h3>
+        
         <div class="light">
             <h2>Light</h2>
+            <h4 id="status_light">Status : </h4>
             <div class="center m-0">
-                <button type="button" class="btn btn-success">ON</button>
-                <button type="button" class="btn btn-danger">OFF</button>
+                <button type="button" class="btn btn-warning"onclick="DoLight()">ON/OFF</button>
+                
             </div>
         </div>
 
         <div class="door">
             <h2>Gate</h2>
+            <h4 id="status_servo">Status : </h4>
             <div class="center">
-                <button type="button" class="btn btn-success">ON</button>
-                <button type="button" class="btn btn-danger">OFF</button>
+                <button type="button" class="btn btn-warning" onclick=" DoServo()">ON/OFF</button>
+            
             </div>
         </div>
 
         <div class="alarm">
             <h2>Alarm</h2>
+            <h4 id="status_buzz">Status : </h4>
             <div class="center">
-                <button type="button" class="btn btn-danger">OFF</button>
+                <button type="button" class="btn btn-warning" onclick="DoBuzz()">OFF</button>
             </div>
         </div>
 

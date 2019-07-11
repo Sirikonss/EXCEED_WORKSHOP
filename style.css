@@ -2,6 +2,10 @@ body {
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(67,67,67,1) 69%);
     color : white;
+    margin-bottom : 10rem;
+    background-image : url("bg.jpg")
+    
+    
 }
 .borderbox {
     text-align: center;
@@ -9,16 +13,22 @@ body {
     margin-top : 3rem;
     color: white;
     font-style: bold;
-
+}
+.borderbox h1 {
+    font-size : 4rem;
+    font-style: bold;
 }
 .remote{
+    background: white;
     margin: auto;
-    width: 60%;
-    height: 600px ;
-    
+    width: 30%;
+    height: 700px ;
+    padding: 2rem;
     margin-top : 3rem;
     margin-bottom : 5rem;
-    opacity: 0.7;
+    opacity: 0.8;
+    border-radius: 20px;
+
 }
 .remote h3{
     color: grey;
@@ -29,14 +39,19 @@ body {
 .remote h2 {
     color : hsl(24, 100%, 59%);
     text-align: center;
-    margin : 2rem ;
+    margin : 1rem ;
     font-size: 2rem;   
+}
+.remote h4 {
+    margin : 1rem;
+    text-align: center;
+    color: rgb(102, 102, 102);
 }
 .btn {
     margin: auto;
     padding : 1rem;
     margin : 0.2rem;
-    width : 8rem;
+    width : 12rem;
     font-size : 2rem;
 }
 
@@ -57,7 +72,5 @@ body {
     text-align: center;
 }
 
-.page{
-    
-}
+
 
